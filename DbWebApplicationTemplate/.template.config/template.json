@@ -1,0 +1,25 @@
+{
+  "author": "Orange Kir",
+  "name": "Db Web Application",
+  "description": "An ASP.NET project with preconfig posthgres.",
+  "identity": "YourName.ConsoleApp.1.0",
+  "shortName": "dbweb",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "DbWebApplicationTemplate",
+  "symbols": {
+    "Framework": {
+      "type": "parameter",
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "netcoreapp8.0"
+        }
+      ],
+      "defaultValue": "netcoreapp8.0"
+    }
+  }
+}
